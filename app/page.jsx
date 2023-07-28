@@ -18,9 +18,9 @@ export default function Page() {
       </Box>
       <Box width='xxlarge' pad='large' gap='large' background='background-contrast'>
         <Heading level={3}>合作伙伴</Heading>
-        <Box direction='row' justify='evenly'>
+        <Box round direction='row' align='center' justify='evenly' background='white'>
           <Box  width='medium'>
-            <Image src='https://daxiaocloud.oss-accelerate.aliyuncs.com/home/images/logo.svg' />
+            <Image src='https://jujiu-prod.oss-accelerate.aliyuncs.com/guangfang_logo.png' />
           </Box>
           <Box  width='medium'>
             <Image src='https://daxiaocloud.oss-accelerate.aliyuncs.com/home/images/logo.svg' />
