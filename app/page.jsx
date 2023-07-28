@@ -28,7 +28,7 @@ export default function Page() {
         </Box>
       </Box>
       <Box width='xxlarge' pad={{ vertical: 'small', horizontal: 'large'}} background='background-front' direction='row' gap='medium'>
-        <Text size='small' color='text-weak'>&copy;2021-2023 上海缓存命中科技有限公司 版权所有</Text>
+        <Text size='small' color='text-weak'>&copy;2020-2023 上海缓存命中科技有限公司 版权所有</Text>
         <Text size='small' color='text-weak'>沪ICP备2020027200号-3</Text>
       </Box>
     </Box>
