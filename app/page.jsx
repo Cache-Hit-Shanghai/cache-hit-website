@@ -12,7 +12,7 @@ export default function Page() {
             <Heading margin='none' color='neutral-1'>AIoT PaaS平台</Heading>
             <Heading margin='none' level={2} color='accent-4'>为万物自治而努力！</Heading>
           </Box>
-          <Text>领先的纯H5 AIoT PaaS平台与行业解决方案。将AIoT产品落地事件缩短至1个月，开发成本缩短至原来的十分之一。全网页控制端，原生支持几乎所有的操作系统。</Text>
+          <Text>领先的纯H5 AIoT PaaS平台与端云一体的行业解决方案。将AIoT产品落地事件缩短至1个月，开发成本缩短至原来的十分之一。全网页控制端，原生支持几乎所有的操作系统。基于零信任网络打造，全栈加密，充分保障系统安全。</Text>
         </Box>
         <Image margin='xlarge' background='white' src='https://jujiu-prod.oss-accelerate.aliyuncs.com/internetofthings.svg' />
       </Box>
