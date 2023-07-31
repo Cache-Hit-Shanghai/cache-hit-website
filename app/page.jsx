@@ -115,6 +115,7 @@ export default function Page() {
       <Box width='xxlarge' pad='large' background='linear-gradient(to bottom right, #00873D, #00739D)'>
         <Heading level={2}>雎鸠云Web AIoT PaaS平台</Heading>
         <Grid
+          border={['right', 'bottom']}
           rows={['auto', 'auto', 'auto', 'auto', 'auto', 'auto']}
           columns={['auto', 'auto', 'auto', 'auto', 'auto', 'auto', 'auto', 'auto']}
           areas={[
@@ -126,46 +127,46 @@ export default function Page() {
             { name: 'hw_paas', start: [7, 2], end: [7, 5] },
           ]}
         >
-          <Box>场景</Box>
-          <Box>智慧交通</Box>
-          <Box>智慧楼宇</Box>
-          <Box>智慧家居</Box>
-          <Box>智慧城市</Box>
-          <Box>智慧零售</Box>
-          <Box>智慧校园</Box>
-          <Box>智慧办公</Box>
-          <Box>SaaS</Box>
-          <Box>视频监控平台</Box>
-          <Box>位置信息平台</Box>
-          <Box>智能家居平台</Box>
-          <Box>智慧照明平台</Box>
-          <Box>可穿戴平台</Box>
-          <Box>智能网络平台</Box>
-          <Box>数字公路平台</Box>
-          <Box gridArea='paas_title'>PaaS</Box>
+          <Box border={['top', 'left']}>场景</Box>
+          <Box border={['top', 'left']}>智慧交通</Box>
+          <Box border={['top', 'left']}>智慧楼宇</Box>
+          <Box border={['top', 'left']}>智慧家居</Box>
+          <Box border={['top', 'left']}>智慧城市</Box>
+          <Box border={['top', 'left']}>智慧零售</Box>
+          <Box border={['top', 'left']}>智慧校园</Box>
+          <Box border={['top', 'left']}>智慧办公</Box>
+          <Box border={['top', 'left']}>SaaS</Box>
+          <Box border={['top', 'left']}>视频监控平台</Box>
+          <Box border={['top', 'left']}>位置信息平台</Box>
+          <Box border={['top', 'left']}>智能家居平台</Box>
+          <Box border={['top', 'left']}>智慧照明平台</Box>
+          <Box border={['top', 'left']}>可穿戴平台</Box>
+          <Box border={['top', 'left']}>智能网络平台</Box>
+          <Box border={['top', 'left']}>数字公路平台</Box>
+          <Box gridArea='paas_title' border={['top', 'left']}>PaaS</Box>
           <Grid
             gridArea='web_paas'
             rows={['auto', 'auto', 'auto', 'auto']}
             columns={['auto', 'auto']}
             areas={[{ name:'web_paas_title', start: [0, 0], end: [1, 0] }]}
           >
-            <Box gridArea='web_paas_title'>Web</Box>
-            <Box>登录</Box>
-            <Box>音视频</Box>
-            <Box>支付</Box>
-            <Box>Billing</Box>
-            <Box>数据分析</Box>
-            <Box>消息分发</Box>
+            <Box gridArea='web_paas_title' border={['top', 'left']}>Web</Box>
+            <Box border={['top', 'left']}>登录</Box>
+            <Box border={['top', 'left']}>音视频</Box>
+            <Box border={['top', 'left']}>支付</Box>
+            <Box border={['top', 'left']}>Billing</Box>
+            <Box border={['top', 'left']}>数据分析</Box>
+            <Box border={['top', 'left']}>消息分发</Box>
           </Grid>
           <Grid
             gridArea='ai_paas'
             rows={['auto', 'auto', 'auto', 'auto']}
             columns={['auto']}
           >
-            <Box>AI</Box>
-            <Box>人脸识别</Box>
-            <Box>手势识别</Box>
-            <Box>车牌识别</Box>
+            <Box border={['top', 'left']}>AI</Box>
+            <Box border={['top', 'left']}>人脸识别</Box>
+            <Box border={['top', 'left']}>手势识别</Box>
+            <Box border={['top', 'left']}>车牌识别</Box>
           </Grid>
           <Grid
             gridArea='iot_paas'
@@ -173,33 +174,33 @@ export default function Page() {
             columns={['auto', 'auto']}
             areas={[{ name:'iot_paas_title', start: [0, 0], end: [1, 0] }]}
           >
-            <Box gridArea='iot_paas_title'>IoT</Box>
-            <Box>MQTT</Box>
-            <Box>设备管理</Box>
-            <Box>时序数据库</Box>
-            <Box>远程诊断</Box>
-            <Box>位置与传感</Box>
-            <Box>OTA</Box>
+            <Box gridArea='iot_paas_title' border={['top', 'left']}>IoT</Box>
+            <Box border={['top', 'left']}>MQTT</Box>
+            <Box border={['top', 'left']}>设备管理</Box>
+            <Box border={['top', 'left']}>时序数据库</Box>
+            <Box border={['top', 'left']}>远程诊断</Box>
+            <Box border={['top', 'left']}>位置与传感</Box>
+            <Box border={['top', 'left']}>OTA</Box>
           </Grid>
           <Grid
             gridArea='fw_paas'
             rows={['auto', 'auto', 'auto', 'auto']}
             columns={['auto']}
           >
-            <Box>固件</Box>
-            <Box>SDK</Box>
-            <Box>GUI</Box>
-            <Box>多语言运行时</Box>
+            <Box border={['top', 'left']}>固件</Box>
+            <Box border={['top', 'left']}>SDK</Box>
+            <Box border={['top', 'left']}>GUI</Box>
+            <Box border={['top', 'left']}>多语言运行时</Box>
           </Grid>
           <Grid
             gridArea='hw_paas'
             rows={['auto', 'auto', 'auto', 'auto']}
             columns={['auto']}
           >
-            <Box>硬件</Box>
-            <Box>核心板</Box>
-            <Box>通讯模组</Box>
-            <Box>视觉模组</Box>
+            <Box border={['top', 'left']}>硬件</Box>
+            <Box border={['top', 'left']}>核心板</Box>
+            <Box border={['top', 'left']}>通讯模组</Box>
+            <Box border={['top', 'left']}>视觉模组</Box>
           </Grid>
         </Grid>
       </Box>
