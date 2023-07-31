@@ -1,6 +1,6 @@
 'use client';
 
-import { Box, Heading, Text, Image } from 'grommet';
+import { Box, Heading, Text, Image, Card, CardBody } from 'grommet';
 
 export default function Page() {
   return (
@@ -26,6 +26,9 @@ export default function Page() {
             <Image src='https://daxiaocloud.oss-accelerate.aliyuncs.com/home/images/logo.svg' />
           </Box>
         </Box>
+      </Box>
+      <Box width='xxlarge' pad='large'>
+        <Heading level={3}>Web网络摄像机解决方案</Heading>
       </Box>
       <Box width='xxlarge' pad={{ vertical: 'small', horizontal: 'large'}} background='background-front' direction='row' gap='medium'>
         <Text size='small' color='text-weak'>&copy;2020-2023 上海缓存命中科技有限公司 版权所有</Text>
