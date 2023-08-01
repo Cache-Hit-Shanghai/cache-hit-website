@@ -143,30 +143,30 @@ export default function Page() {
           <Box pad='xxsmall' border={['top', 'left']} background='status-warning'>可穿戴平台</Box>
           <Box pad='xxsmall' border={['top', 'left']} background='status-warning'>智能网络平台</Box>
           <Box pad='xxsmall' border={['top', 'left']} background='status-warning'>数字公路平台</Box>
-          <Box pad='xxsmall' align='center' justify='center' gridArea='paas_title' border={['top', 'left']} background='dark-2'><Text weight='bold'>PaaS</Text></Box>
+          <Box pad='xxsmall' align='center' justify='center' gridArea='paas_title' border={['top', 'left']} background='light-3'><Text weight='bold'>PaaS</Text></Box>
           <Grid
             gridArea='web_paas'
             rows={['auto', 'auto', 'auto', 'auto']}
             columns={['auto', 'auto']}
             areas={[{ name:'web_paas_title', start: [0, 0], end: [1, 0] }]}
           >
-            <Box pad='xxsmall' align='center' gridArea='web_paas_title' border={['top', 'left']} background='status-unknown'>Web PaaS</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='status-unknown'>登录</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='status-unknown'>音视频</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='status-unknown'>支付</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='status-unknown'>Billing</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='status-unknown'>数据分析</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='status-unknown'>消息分发</Box>
+            <Box pad='xxsmall' align='center' gridArea='web_paas_title' border={['top', 'left']} background='light-4'>Web PaaS</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='light-4'>登录</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='light-4'>音视频</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='light-4'>支付</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='light-4'>Billing</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='light-4'>数据分析</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='light-4'>消息分发</Box>
           </Grid>
           <Grid
             gridArea='ai_paas'
             rows={['auto', 'auto', 'auto', 'auto']}
             columns={['auto']}
           >
-            <Box pad='xxsmall' align='center' border={['top', 'left']} background='status-ok'>AI PaaS</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='status-ok'>人脸识别</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='status-ok'>手势识别</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='status-ok'>车牌识别</Box>
+            <Box pad='xxsmall' align='center' border={['top', 'left']} background='dark-4'>AI PaaS</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='dark-4'>人脸识别</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='dark-4'>手势识别</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='dark-4'>车牌识别</Box>
           </Grid>
           <Grid
             gridArea='iot_paas'
@@ -174,33 +174,33 @@ export default function Page() {
             columns={['auto', 'auto']}
             areas={[{ name:'iot_paas_title', start: [0, 0], end: [1, 0] }]}
           >
-            <Box pad='xxsmall' align='center' gridArea='iot_paas_title' border={['top', 'left']} background='brand'>IoT Core</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='brand'>MQTT</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='brand'>设备管理</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='brand'>时序数据库</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='brand'>远程诊断</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='brand'>位置与传感</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='brand'>OTA</Box>
+            <Box pad='xxsmall' align='center' gridArea='iot_paas_title' border={['top', 'left']} background='dark-3'>IoT Core</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='dark-3'>MQTT</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='dark-3'>设备管理</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='dark-3'>时序数据库</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='dark-3'>远程诊断</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='dark-3'>位置与传感</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='dark-3'>OTA</Box>
           </Grid>
           <Grid
             gridArea='fw_paas'
             rows={['auto', 'auto', 'auto', 'auto']}
             columns={['auto']}
           >
-            <Box pad='xxsmall' align='center' border={['top', 'left']} background='graph-4'>固件</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='graph-4'>SDK</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='graph-4'>GUI</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='graph-4'>多语言运行时</Box>
+            <Box pad='xxsmall' align='center' border={['top', 'left']} background='dark-2'>固件</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='dark-2'>SDK</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='dark-2'>GUI</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='dark-2'>多语言运行时</Box>
           </Grid>
           <Grid
             gridArea='hw_paas'
             rows={['auto', 'auto', 'auto', 'auto']}
             columns={['auto']}
           >
-            <Box pad='xxsmall' align='center' border={['top', 'left']} background='accent-2'>硬件</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='accent-2'>核心板</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='accent-2'>通讯模组</Box>
-            <Box pad='xxsmall' border={['top', 'left']} background='accent-2'>视觉模组</Box>
+            <Box pad='xxsmall' align='center' border={['top', 'left']} background='dark-1'>硬件</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='dark-1'>核心板</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='dark-1'>通讯模组</Box>
+            <Box pad='xxsmall' border={['top', 'left']} background='dark-1'>视觉模组</Box>
           </Grid>
         </Grid>
       </Box>
