@@ -187,7 +187,7 @@ export default function Page() {
             rows={['auto', 'auto', 'auto', 'auto']}
             columns={['auto']}
           >
-            <Box pad='xxsmall' border={['top', 'left']} background='graph-4'>固件</Box>
+            <Box pad='xxsmall' align='center' border={['top', 'left']} background='graph-4'>固件</Box>
             <Box pad='xxsmall' border={['top', 'left']} background='graph-4'>SDK</Box>
             <Box pad='xxsmall' border={['top', 'left']} background='graph-4'>GUI</Box>
             <Box pad='xxsmall' border={['top', 'left']} background='graph-4'>多语言运行时</Box>
@@ -197,7 +197,7 @@ export default function Page() {
             rows={['auto', 'auto', 'auto', 'auto']}
             columns={['auto']}
           >
-            <Box pad='xxsmall' border={['top', 'left']} background='accent-2'>硬件</Box>
+            <Box pad='xxsmall' align='center' border={['top', 'left']} background='accent-2'>硬件</Box>
             <Box pad='xxsmall' border={['top', 'left']} background='accent-2'>核心板</Box>
             <Box pad='xxsmall' border={['top', 'left']} background='accent-2'>通讯模组</Box>
             <Box pad='xxsmall' border={['top', 'left']} background='accent-2'>视觉模组</Box>
