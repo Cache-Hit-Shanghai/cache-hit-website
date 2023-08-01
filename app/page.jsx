@@ -29,7 +29,7 @@ export default function Page() {
         </Box>
       </Box>
       <Box width='xxlarge' pad='large' background='background-contrast'>
-        <Heading level={2}>Web网络摄像机解决方案</Heading>
+        <Heading level={1}>Web网络摄像机解决方案</Heading>
         <Box direction='row' align='center'>
           <Box flex={{ grow: 1, shrink: 1 }}>
             <Stack guidingChild={1}>
@@ -74,7 +74,7 @@ export default function Page() {
           </Box>
         </Box>
         <Box>
-          <Heading level={3} alignSelf='center'>核心技术优势</Heading>
+          <Heading level={2} alignSelf='center'>核心技术优势</Heading>
           <Box direction='row' justify='between'>
             <Card background='background-front' width='medium'>
               <CardHeader background='active' pad='small'>
@@ -113,7 +113,7 @@ export default function Page() {
         </Box>
       </Box>
       <Box width='xxlarge' pad='large' background='linear-gradient(to bottom right, #00873D, #00739D)'>
-        <Heading level={2}>雎鸠云Web AIoT PaaS平台</Heading>
+        <Heading level={1}>雎鸠云Web AIoT PaaS平台</Heading>
         <Grid
           border={['right', 'bottom']}
           rows={['auto', 'auto', 'auto', 'auto', 'auto', 'auto']}
