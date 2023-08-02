@@ -73,7 +73,7 @@ export default function Page() {
               </Box>
             </Stack>
           </Box>
-          <Box width='50%' margin='large' flex='false'>
+          <Box width='50%' margin='large' flex={false}>
             <Heading level={2}>创新的Web AIoT音视频平台</Heading>
             <Text>雎鸠云音视频PaaS平台是一个创新的基于Web的AIoT音视频平台。平台以WebRTC流媒体协议为基础，全面支持纯H5的无插件高安全的网页音视频。帮助客户快速落地安全、领先的AIoT产品。</Text>
           </Box>
