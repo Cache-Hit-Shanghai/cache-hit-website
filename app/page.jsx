@@ -255,7 +255,7 @@ export default function Page() {
           </Box>
         </Box>
       </Box>
-      <Box wrap width='xxlarge' pad={{ vertical: 'small', horizontal: 'large'}} background='background-front' direction='row' align='center' gap='medium'>
+      <Box wrap width='xxlarge' pad='small' background='background-front' direction='row' align='center' gap='medium'>
         <Text size='small' color='text-weak'>&copy;2020-2023 上海缓存命中科技有限公司 版权所有</Text>
         <Link href='https://beian.miit.gov.cn/' passHref legacyBehavior>
           <Anchor size='small' label='沪ICP备2020027200号-3' target='_blank' />
