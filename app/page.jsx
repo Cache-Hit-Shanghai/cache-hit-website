@@ -9,16 +9,16 @@ export default function Page() {
   return (
     <Box align='center'>
       <Box wrap width='xxlarge' pad='large' direction='row' justify='between' background='background-front'>
-        <Box width='medium' gap='xlarge' justify='center'>
+        <Box width='medium' justify='center'>
           <Box gap='medium'>
             <Heading margin='none' size='large' color='neutral-1'>雎鸠云</Heading>
             <Heading margin='none' color='neutral-1'>AIoT PaaS平台</Heading>
             <Heading margin='none' level={2} color='accent-4'>构建万物自治的世界！</Heading>
           </Box>
-          <Text>领先的纯H5 AIoT PaaS平台与端云一体的行业解决方案。将AIoT产品落地事件缩短至1个月，开发成本缩短至原来的十分之一。全网页控制端，原生支持几乎所有的操作系统。基于零信任网络打造，全栈加密，充分保障系统安全。</Text>
+          <Text margin={{ vertical: 'large' }}>领先的纯H5 AIoT PaaS平台与端云一体的行业解决方案。将AIoT产品落地事件缩短至1个月，开发成本缩短至原来的十分之一。全网页控制端，原生支持几乎所有的操作系统。基于零信任网络打造，全栈加密，充分保障系统安全。</Text>
         </Box>
         <Box align='center' justify='center'>
-          <Box width='large' pad='large'>
+          <Box width='large'>
             <Image fit='contain' src='https://jujiu-prod.oss-accelerate.aliyuncs.com/internetofthings.svg' />
           </Box>
         </Box>
