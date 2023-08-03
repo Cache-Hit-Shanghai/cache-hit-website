@@ -26,10 +26,10 @@ export default function Page() {
       <Box width='xxlarge' pad='large' gap='large' background='dark-6'>
         <Heading level={2}>合作伙伴</Heading>
         <Box wrap direction='row' align='center' justify='evenly' background='white'>
-          <Box  width='medium'>
+          <Box width='medium'>
             <Image src='https://jujiu-prod.oss-accelerate.aliyuncs.com/guangfang_logo.png' />
           </Box>
-          <Box  width='medium' margin='medium'>
+          <Box width='medium' margin='large'>
             <Link href='https://daxiaogroup.com' passHref legacyBehavior>
               <Box as='a' target='_blank' focusIndicator={false}>
                 <Image src='https://daxiaocloud.oss-accelerate.aliyuncs.com/home/images/logo.svg' />
