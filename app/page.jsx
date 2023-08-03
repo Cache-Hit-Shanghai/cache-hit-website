@@ -4,11 +4,12 @@ import { Box, Heading, Text, Image, Stack, Diagram, Card, CardHeader, CardBody, 
 import Link from 'next/link';
 import { Cloud, Webcam, Checkmark } from 'grommet-icons';
 
+
 export default function Page() {
   return (
     <Box align='center'>
-      <Box width='xxlarge' height='large' direction='row' background='background-front'>
-        <Box margin='large' gap='xlarge' justify='center'>
+      <Box wrap width='xxlarge' pad='large' direction='row' justify='between' background='background-front'>
+        <Box width='medium' gap='xlarge' justify='center'>
           <Box gap='medium'>
             <Heading margin='none' size='large' color='neutral-1'>雎鸠云</Heading>
             <Heading margin='none' color='neutral-1'>AIoT PaaS平台</Heading>
@@ -16,15 +17,19 @@ export default function Page() {
           </Box>
           <Text>领先的纯H5 AIoT PaaS平台与端云一体的行业解决方案。将AIoT产品落地事件缩短至1个月，开发成本缩短至原来的十分之一。全网页控制端，原生支持几乎所有的操作系统。基于零信任网络打造，全栈加密，充分保障系统安全。</Text>
         </Box>
-        <Image margin='xlarge' background='white' src='https://jujiu-prod.oss-accelerate.aliyuncs.com/internetofthings.svg' />
+        <Box align='center' justify='center'>
+          <Box width='large' pad='large'>
+            <Image fit='contain' src='https://jujiu-prod.oss-accelerate.aliyuncs.com/internetofthings.svg' />
+          </Box>
+        </Box>
       </Box>
       <Box width='xxlarge' pad='large' gap='large' background='dark-6'>
         <Heading level={2}>合作伙伴</Heading>
-        <Box round direction='row' align='center' justify='evenly' background='white'>
+        <Box wrap direction='row' align='center' justify='evenly' background='white'>
           <Box  width='medium'>
             <Image src='https://jujiu-prod.oss-accelerate.aliyuncs.com/guangfang_logo.png' />
           </Box>
-          <Box  width='medium'>
+          <Box  width='medium' margin='medium'>
             <Link href='https://daxiaogroup.com' passHref legacyBehavior>
               <Box as='a' target='_blank' focusIndicator={false}>
                 <Image src='https://daxiaocloud.oss-accelerate.aliyuncs.com/home/images/logo.svg' />
@@ -35,7 +40,7 @@ export default function Page() {
       </Box>
       <Box width='xxlarge' pad='large' background='background-contrast'>
         <Heading level={1}>Web网络摄像机解决方案</Heading>
-        <Box direction='row' align='center'>
+        <Box wrap direction='row' align='center'>
           <Box flex={{ grow: 1, shrink: 1 }}>
             <Stack guidingChild={1}>
               <Diagram
@@ -73,15 +78,15 @@ export default function Page() {
               </Box>
             </Stack>
           </Box>
-          <Box width='50%' margin='large' flex={false}>
+          <Box width='large' margin='large'>
             <Heading level={2}>创新的Web AIoT音视频平台</Heading>
             <Text>雎鸠云音视频PaaS平台是一个创新的基于Web的AIoT音视频平台。平台以WebRTC流媒体协议为基础，全面支持纯H5的无插件高安全的网页音视频。帮助客户快速落地安全、领先的AIoT产品。</Text>
           </Box>
         </Box>
         <Box>
           <Heading level={2} alignSelf='center'>核心技术优势</Heading>
-          <Box direction='row' justify='between'>
-            <Card background='background-front' width='medium'>
+          <Box wrap direction='row' justify='between'>
+            <Card background='background-front' width='medium' margin={{ vertical: 'small' }}>
               <CardHeader background='active' pad='small'>
                 <Box direction='row' align='center' gap='small'>
                   <Box round background='brand'><Checkmark /></Box>
@@ -92,7 +97,7 @@ export default function Page() {
                 <Text>端到端全流量加密。音视频流和数据流都采用TLS/DTLS的方式加密。取消了传统网络摄像机中容易被攻击的的端口监听和弱密码。信令层采用服务端RSA签名进行鉴权，在信道加密的基础上提供了安全双保险。</Text>
               </CardBody>
             </Card>
-            <Card background='background-front' width='medium'>
+            <Card background='background-front' width='medium' margin={{ vertical: 'small' }}>
               <CardHeader background='active' pad='small'>
                 <Box direction='row' align='center' gap='small'>
                   <Box round background='brand'><Checkmark /></Box>
@@ -103,7 +108,7 @@ export default function Page() {
                 <Text>H5播放器页面与设备端直连。降低了流媒体和双向语音的延迟，提高了用户体验。在少数无法P2P对穿成功的场景下，可以自动无缝切换到转发模式。</Text>
               </CardBody>
             </Card>
-            <Card background='background-front' width='medium'>
+            <Card background='background-front' width='medium' margin={{ vertical: 'small' }}>
               <CardHeader background='active' pad='small'>
                 <Box direction='row' align='center' gap='small'>
                   <Box round background='brand'><Checkmark /></Box>
@@ -213,8 +218,8 @@ export default function Page() {
         </Box>
         <Box>
           <Heading level={2} alignSelf='center'>平台技术优势</Heading>
-          <Box direction='row' justify='between'>
-            <Card background='background-front' width='medium'>
+          <Box wrap direction='row' justify='between'>
+            <Card background='background-front' width='medium'margin={{ vertical: 'small' }}>
               <CardHeader background='active' pad='small'>
                 <Box direction='row' align='center' gap='small'>
                   <Box round background='brand'><Checkmark /></Box>
@@ -225,7 +230,7 @@ export default function Page() {
                 <Text>创新的设备管理机制，采用强加密的令牌作为设备鉴权的方式。取代了繁琐的“一机一密”和“设备证书”。中台API可直接运行在用户SaaS的H5页面中，不再需要SaaS后端进行转发。</Text>
               </CardBody>
             </Card>
-            <Card background='background-front' width='medium'>
+            <Card background='background-front' width='medium'margin={{ vertical: 'small' }}>
               <CardHeader background='active' pad='small'>
                 <Box direction='row' align='center' gap='small'>
                   <Box round background='brand'><Checkmark /></Box>
@@ -236,7 +241,7 @@ export default function Page() {
                 <Text>所有流量都使用TLS/DTLS加密。使用强加密用户令牌鉴权，使得API可以直接运行在用户SaaS的前端网页里。弹性资源扩展，轻松支持海量设备连接，服务可用性高达99.9%。</Text>
               </CardBody>
             </Card>
-            <Card background='background-front' width='medium'>
+            <Card background='background-front' width='medium'margin={{ vertical: 'small' }}>
               <CardHeader background='active' pad='small'>
                 <Box direction='row' align='center' gap='small'>
                   <Box round background='brand'><Checkmark /></Box>
@@ -244,13 +249,13 @@ export default function Page() {
                 </Box>
               </CardHeader>
               <CardBody pad='small'>
-                <Text>独特的插件化架构设计，支持公有云、私有云和混合云部署，轻松支持定制开发，满足不同种类客户的需要。</Text>
+                <Text>独特的插件化架构设计，轻松支持定制开发，满足不同种类客户的需要。支持公有云、私有云和混合云部署，支持无缝部署，部署时系统能够正常使用。</Text>
               </CardBody>
             </Card>
           </Box>
         </Box>
       </Box>
-      <Box width='xxlarge' pad={{ vertical: 'small', horizontal: 'large'}} background='background-front' direction='row' align='center' gap='medium'>
+      <Box wrap width='xxlarge' pad={{ vertical: 'small', horizontal: 'large'}} background='background-front' direction='row' align='center' gap='medium'>
         <Text size='small' color='text-weak'>&copy;2020-2023 上海缓存命中科技有限公司 版权所有</Text>
         <Link href='https://beian.miit.gov.cn/' passHref legacyBehavior>
           <Anchor size='small' label='沪ICP备2020027200号-3' target='_blank' />
