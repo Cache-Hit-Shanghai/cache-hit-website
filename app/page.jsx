@@ -86,7 +86,7 @@ export default function Page() {
         <Box>
           <Heading level={2} alignSelf='center'>核心技术优势</Heading>
           <Box wrap direction='row' justify='between'>
-            <Card background='background-front' width='medium' margin={{ vertical: 'small' }}>
+            <Card background='background-front' margin={{ vertical: 'small' }} width='medium'>
               <CardHeader background='active' pad='small'>
                 <Box direction='row' align='center' gap='small'>
                   <Box round background='brand'><Checkmark /></Box>
@@ -97,7 +97,7 @@ export default function Page() {
                 <Text>端到端全流量加密。音视频流和数据流都采用TLS/DTLS的方式加密。取消了传统网络摄像机中容易被攻击的的端口监听和弱密码。信令层采用服务端RSA签名进行鉴权，在信道加密的基础上提供了安全双保险。</Text>
               </CardBody>
             </Card>
-            <Card background='background-front' width='medium' margin={{ vertical: 'small' }}>
+            <Card background='background-front' margin={{ vertical: 'small' }} width='medium'>
               <CardHeader background='active' pad='small'>
                 <Box direction='row' align='center' gap='small'>
                   <Box round background='brand'><Checkmark /></Box>
@@ -108,7 +108,7 @@ export default function Page() {
                 <Text>H5播放器页面与设备端直连。降低了流媒体和双向语音的延迟，提高了用户体验。在少数无法P2P对穿成功的场景下，可以自动无缝切换到转发模式。</Text>
               </CardBody>
             </Card>
-            <Card background='background-front' width='medium' margin={{ vertical: 'small' }}>
+            <Card background='background-front' margin={{ vertical: 'small' }} width='medium'>
               <CardHeader background='active' pad='small'>
                 <Box direction='row' align='center' gap='small'>
                   <Box round background='brand'><Checkmark /></Box>
@@ -219,7 +219,7 @@ export default function Page() {
         <Box>
           <Heading level={2} alignSelf='center'>平台技术优势</Heading>
           <Box wrap direction='row' justify='between'>
-            <Card background='background-front' width='medium'margin={{ vertical: 'small' }}>
+            <Card background='background-front' margin={{ vertical: 'small' }} width='medium'>
               <CardHeader background='active' pad='small'>
                 <Box direction='row' align='center' gap='small'>
                   <Box round background='brand'><Checkmark /></Box>
@@ -230,7 +230,7 @@ export default function Page() {
                 <Text>创新的设备管理机制，采用强加密的令牌作为设备鉴权的方式。取代了繁琐的“一机一密”和“设备证书”。中台API可直接运行在用户SaaS的H5页面中，不再需要SaaS后端进行转发。</Text>
               </CardBody>
             </Card>
-            <Card background='background-front' width='medium'margin={{ vertical: 'small' }}>
+            <Card background='background-front' margin={{ vertical: 'small' }} width='medium'>
               <CardHeader background='active' pad='small'>
                 <Box direction='row' align='center' gap='small'>
                   <Box round background='brand'><Checkmark /></Box>
@@ -241,7 +241,7 @@ export default function Page() {
                 <Text>所有流量都使用TLS/DTLS加密。使用强加密用户令牌鉴权，使得API可以直接运行在用户SaaS的前端网页里。弹性资源扩展，轻松支持海量设备连接，服务可用性高达99.9%。</Text>
               </CardBody>
             </Card>
-            <Card background='background-front' width='medium'margin={{ vertical: 'small' }}>
+            <Card background='background-front' margin={{ vertical: 'small' }} width='medium'>
               <CardHeader background='active' pad='small'>
                 <Box direction='row' align='center' gap='small'>
                   <Box round background='brand'><Checkmark /></Box>
