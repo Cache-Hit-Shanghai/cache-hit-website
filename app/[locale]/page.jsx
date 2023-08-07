@@ -3,15 +3,17 @@
 import { Box, Heading, Text, Image, Stack, Diagram, Card, CardHeader, CardBody, Grid, Anchor } from 'grommet';
 import Link from 'next/link';
 import { Cloud, Webcam, Checkmark } from 'grommet-icons';
+import {useTranslations} from 'next-intl';
 
 
 export default function Page() {
+  const t = useTranslations('Index');
   return (
     <Box align='center'>
       <Box wrap width='xxlarge' pad='large' direction='row' justify='between' background='background-front'>
         <Box width='medium' justify='center'>
           <Box gap='medium'>
-            <Heading margin='none' size='large' color='neutral-1'>雎鸠云</Heading>
+            <Heading margin='none' size='large' color='neutral-1'>{t('title')}</Heading>
             <Heading margin='none' color='neutral-1'>AIoT PaaS平台</Heading>
             <Heading margin='none' level={2} color='accent-4'>构建万物自治的世界！</Heading>
           </Box>
