@@ -14,7 +14,6 @@ export function generateStaticParams() {
 }
 
 export default async function RootLayout({ children, params: {locale} }) {
-  console.log(locale)
   let messages;
   try {
     messages = (await import(`../../messages/${locale}.json`)).default;
