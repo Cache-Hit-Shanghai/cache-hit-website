@@ -6,8 +6,9 @@ import { Cloud, Webcam, Checkmark } from 'grommet-icons';
 import {useTranslations} from 'next-intl';
 
 
-export default function Page() {
+export default function Page({ params: { locale } }) {
   const t = useTranslations('Index');
+  console.log(locale)
   return (
     <Box align='center'>
       <Box wrap width='xxlarge' pad='large' direction='row' justify='between' background='background-front'>
@@ -26,7 +27,7 @@ export default function Page() {
         </Box>
       </Box>
       <Box width='xxlarge' pad='large' gap='large' background='dark-6'>
-        <Heading level={2}>合作伙伴</Heading>
+        <Heading level={2}>{t('partners')}</Heading>
         <Box wrap direction='row' align='center' justify='evenly' background='white'>
           <Box width='medium'>
             <Image src='https://jujiu-prod.oss-accelerate.aliyuncs.com/guangfang_logo.png' />
@@ -258,10 +259,10 @@ export default function Page() {
         </Box>
       </Box>
       <Box wrap width='xxlarge' pad='medium' background='background-front' direction='row' align='center' gap='medium'>
-        <Text size='small' color='text-weak'>&copy;2020-2023 上海缓存命中科技有限公司 版权所有</Text>
-        <Link href='https://beian.miit.gov.cn/' passHref legacyBehavior>
+        <Text size='small' color='text-weak'>&copy;2020-2023 {t('copyright')}</Text>
+        {locale === 'cn' && <Link href='https://beian.miit.gov.cn/' passHref legacyBehavior>
           <Anchor size='small' label='沪ICP备2020027200号-3' target='_blank' />
-        </Link>
+        </Link>}
       </Box>
     </Box>
   );
