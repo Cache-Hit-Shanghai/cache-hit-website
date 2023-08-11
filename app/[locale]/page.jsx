@@ -8,7 +8,6 @@ import {useTranslations} from 'next-intl';
 
 export default function Page({ params: { locale } }) {
   const t = useTranslations('Index');
-  console.log(locale)
   return (
     <Box align='center'>
       <Box wrap width='xxlarge' pad='large' direction='row' justify='between' background='background-front'>
